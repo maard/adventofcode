@@ -1,5 +1,4 @@
 const std = @import("std");
-const zig = @import("zig");
 
 const filename = "input";
 
@@ -26,6 +25,7 @@ fn part1(file: std.fs.File) !void {
     }
     std.debug.print("{d}\n", .{count});
 }
+
 fn part2(file: std.fs.File) !void {
     var buf: [10]u8 = undefined;
     var reader = file.reader(&buf);

@@ -1,5 +1,4 @@
 const std = @import("std");
-const zig = @import("zig");
 
 const filename = "input";
 
